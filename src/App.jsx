@@ -1,5 +1,5 @@
 import { Reasons } from "./components/reasons-to-join/ReasonsToJoin";
-
+import { Footer} from "./components/footer/Footer";
 
 function App() {
   
@@ -8,8 +8,10 @@ function App() {
     <>
     
     <main>
+      <h2>More Reasons to Join</h2>
       <Reasons />
     </main>
+    <Footer />
 
 
      
